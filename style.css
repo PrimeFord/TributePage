@@ -1,41 +1,80 @@
 * {
-   font-family:'Segoe UI', 'Roboto', 'Helvetica Neue', Arial, sans-serif;
-   color: rgb(53, 51, 51);
+  font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+  color: rgb(53, 51, 51);
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
-main{
-    background-color: #eeeeee;
-    text-align: center;
-    margin: 1.8em 0.1em;
-    border-radius: 0.5%;
+body {
+  background-color: white;
+}
+main {
+  background-color: #eeeeee;
+  text-align: center;
+  margin: 1.8rem 0.1rem;
+  border-radius: 0.5%;
 }
 #img-div {
-    background-color: white;
-    padding: 1em;
-    margin: 0 1em;
+  background-color: white;
+  padding: 1rem;
+  margin: 0 1rem;
 }
 #image {
-    padding-bottom: 0.8em;
+  padding-bottom: 0.8rem;
 }
 #tribute-info {
-    padding: 2em 0 2em 0;
+  padding: 2rem 0 2rem 0;
 }
 #history {
-    text-align: start;
-    width: 35rem;
-    margin: auto;
+  text-align: start;
+  width: 35rem;
+  margin: auto;
 }
 #history li {
-    padding: 0.5em 0;
+  padding: 0.5rem 0;
 }
 #tribute-link {
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(40, 103, 155);
-    font-size: 20px;
-    font-weight: 700;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(40, 103, 155);
+  font-size: 1.25rem;
+  font-weight: 700;
 }
 .about {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    padding: 2em;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.25rem;
+  font-weight: 700;
+  padding: 2rem;
+}
+@media (max-width: 640px) {
+  :root {
+    font-size: 0.75rem;
+  }
+  main {
+    margin: 1rem 0rem;
+  }
+  #title {
+    font-size: 1.75rem;
+    padding: 1rem 0;
+  }
+  .stitle {
+    margin-bottom: 0.3rem;
+    font-size: 1.25rem;
+  }
+  #img-div {
+    background-color: white;
+    padding: 0.2rem;
+    margin: 0 1rem;
+  }
+  #image {
+    padding-bottom: 0.8rem;
+    height: 16rem;
+    width: 24rem;
+  }
+  #img-caption {
+    font-size: 1.25rem;
+  }
+  #history {
+    width: 65%;
+    font-size: 1.2rem;
+  }
 }
